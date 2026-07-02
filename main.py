@@ -48,6 +48,17 @@ def getTermVariants(lbl):
     
     return allVars
 
+def matchVariants(inTerms, subVars):
+    termsIn = inTerms.split(";")
+    f = []
+    for term in termsIn:
+        found = "False"
+        for sub in subVars:
+            if term.lower() == sub.lower():
+                found = "True"
+                break
+        f.append(found)
+    return f
 
 def main():
     csv = os.environ.get('SUBJECTS_FILE')
