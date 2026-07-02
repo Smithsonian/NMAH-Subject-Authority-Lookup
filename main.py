@@ -55,3 +55,7 @@ def main():
     term_vars = pd.read_csv(csv)
     term_vars["LOC_Variants"] = getTermVariants(term_vars["Subject"].replace('"',''))
     term_vars.to_csv(output)
+
+
+if __name__ == "__main__":
+    main()
