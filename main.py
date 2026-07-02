@@ -1,3 +1,5 @@
+import os
+import pandas as pd
 import requests
 import urllib.parse
 
@@ -5,6 +7,14 @@ import urllib.parse
 #retrieve subject variant strings as array
 #if the given variants match the LOC variant list, return LOC
 #else, return NMAH
+def getResourceURI(label):
+    enc = urllib.parse.quote(label)
+    url = f"https://id.loc.gov/authorities/subjects/label/{enc}"
+    headers = {'accept':'application/json'}
+    h = requests.head(url = url, headers = headers)
+    json = h.headers
+    uri = json["x-uri"].split("/")
+    return uri[-1]
 
 def getData(id):
     url = f"https://id.loc.gov/authorities/subjects/{id}.json"
@@ -23,15 +33,6 @@ def listVariants(item):
         labels.append(l["@value"])
     return labels
 
-def getResourceURI(label):
-    enc = urllib.parse.quote(label)
-    url = f"https://id.loc.gov/authorities/subjects/label/{enc}"
-    headers = {'accept':'application/json'}
-    h = requests.head(url = url, headers = headers)
-    json = h.headers
-    uri = json["x-uri"].split("/")
-    return uri[-1]
-
 
 def getTermVariants(lbl):
     #where lbl is what it grabs from the csv
@@ -46,3 +47,11 @@ def getTermVariants(lbl):
                     allVars.append(v)
     
     return allVars
+
+
+def main():
+    csv = os.environ.get('SUBJECTS_FILE')
+    out = os.environ.get('OUTPUT')
+    term_vars = pd.read_csv(csv)
+    term_vars["LOC_Variants"] = getTermVariants(term_vars["Subject"].replace('"',''))
+    term_vars.to_csv(output)
