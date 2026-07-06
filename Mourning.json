@@ -1,0 +1,418 @@
+[
+  {
+    "@id": "_:b87iddOtlocdOtgovauthoritiessubjectssh85013297",
+    "@type": [
+      "http://www.w3.org/2008/05/skos-xl#Label"
+    ],
+    "http://www.w3.org/2008/05/skos-xl#literalForm": [
+      {
+        "@language": "en",
+        "@value": "Mourning"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/830673",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://id.loc.gov/ontologies/bflc/marcKey": [
+      {
+        "@value": "150  $aBereavement$xPsychological aspects$xTesting"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Testing"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Testing"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85013297",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.loc.gov/mads/rdf/v1#Authority",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@language": "en",
+        "@value": "Bereavement--Psychological aspects"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#componentList": [
+      {
+        "@list": [
+          {
+            "@id": "http://id.loc.gov/authorities/subjects/sh85013296"
+          },
+          {
+            "@id": "http://id.loc.gov/authorities/subjects/sh2002011485"
+          }
+        ]
+      }
+    ],
+    "http://id.loc.gov/ontologies/bflc/marcKey": [
+      {
+        "@value": "150 0$aBereavement$xPsychological aspects"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#hasVariant": [
+      {
+        "@id": "_:b18iddOtlocdOtgovauthoritiessubjectssh85013297"
+      }
+    ],
+    "http://id.loc.gov/vocabulary/identifiers/lccn": [
+      {
+        "@value": "sh 85013297"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings"
+      },
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#hasBroaderAuthority": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85036094"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "info:lc/authorities/sh85013297"
+      },
+      {
+        "@id": "http://id.loc.gov/authorities/sh85013297#concept"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#hasCloseExternalAuthority": [
+      {
+        "@id": "http://datos.bne.es/resource/XX548894"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830669"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#hasBroaderExternalAuthority": [
+      {
+        "@id": "http://id.worldcat.org/fast/830671"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830672"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830673"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#adminMetadata": [
+      {
+        "@id": "_:b67iddOtlocdOtgovauthoritiessubjectssh85013297"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Bereavement--Psychological aspects"
+      }
+    ],
+    "http://www.w3.org/2008/05/skos-xl#altLabel": [
+      {
+        "@id": "_:b87iddOtlocdOtgovauthoritiessubjectssh85013297"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85036094"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://datos.bne.es/resource/XX548894"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830669"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "@id": "http://id.worldcat.org/fast/830671"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830672"
+      },
+      {
+        "@id": "http://id.worldcat.org/fast/830673"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Mourning"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#changeNote": [
+      {
+        "@id": "_:b125iddOtlocdOtgovauthoritiessubjectssh85013297"
+      }
+    ]
+  },
+  {
+    "@id": "http://datos.bne.es/resource/XX548894",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Topic",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Duelo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Duelo"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85013296",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Topic",
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@language": "en",
+        "@value": "Bereavement"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2002011485",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Topic",
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@language": "en",
+        "@value": "Psychological aspects"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/830672",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://id.loc.gov/ontologies/bflc/marcKey": [
+      {
+        "@value": "150  $aBereavement$xPsychological aspects$xStudy and teaching (Elementary)"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Study and teaching (Elementary)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Study and teaching (Elementary)"
+      }
+    ]
+  },
+  {
+    "@id": "_:b125iddOtlocdOtgovauthoritiessubjectssh85013297",
+    "@type": [
+      "http://purl.org/vocab/changeset/schema#ChangeSet"
+    ],
+    "http://purl.org/vocab/changeset/schema#subjectOfChange": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85013297"
+      }
+    ],
+    "http://purl.org/vocab/changeset/schema#creatorName": [
+      {
+        "@value": "United States, Library of CongressDLCdlcUS-dlc"
+      }
+    ],
+    "http://purl.org/vocab/changeset/schema#createdDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1986-02-11T00:00:00"
+      }
+    ],
+    "http://purl.org/vocab/changeset/schema#changeReason": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "new"
+      }
+    ]
+  },
+  {
+    "@id": "_:b67iddOtlocdOtgovauthoritiessubjectssh85013297",
+    "@type": [
+      "http://id.loc.gov/ontologies/RecordInfo#RecordInfo"
+    ],
+    "http://id.loc.gov/ontologies/RecordInfo#recordChangeDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1986-02-11T00:00:00"
+      }
+    ],
+    "http://id.loc.gov/ontologies/RecordInfo#recordStatus": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "new"
+      }
+    ],
+    "http://id.loc.gov/ontologies/RecordInfo#recordContentSource": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/organizations/dlc"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/830671",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://id.loc.gov/ontologies/bflc/marcKey": [
+      {
+        "@value": "150  $aBereavement$xPsychological aspects$xStudy and teaching"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Study and teaching"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects--Study and teaching"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85036094",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.loc.gov/mads/rdf/v1#Authority",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@language": "en",
+        "@value": "Death--Psychological aspects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Death--Psychological aspects"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/830669",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://id.loc.gov/ontologies/bflc/marcKey": [
+      {
+        "@value": "150  $aBereavement$xPsychological aspects"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bereavement--Psychological aspects"
+      }
+    ]
+  },
+  {
+    "@id": "http://id.loc.gov/vocabulary/organizations/dlc",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#CorporateName",
+      "http://www.loc.gov/mads/rdf/v1#Authority"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel": [
+      {
+        "@value": "United States, Library of Congress"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#code": [
+      {
+        "@type": "http://id.loc.gov/datatypes/orgs/code",
+        "@value": "DLC"
+      },
+      {
+        "@type": "http://id.loc.gov/datatypes/orgs/normalized",
+        "@value": "dlc"
+      },
+      {
+        "@type": "http://id.loc.gov/datatypes/orgs/iso15511",
+        "@value": "US-dlc"
+      }
+    ]
+  },
+  {
+    "@id": "_:b18iddOtlocdOtgovauthoritiessubjectssh85013297",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#Topic",
+      "http://www.loc.gov/mads/rdf/v1#Variant"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#variantLabel": [
+      {
+        "@language": "en",
+        "@value": "Mourning"
+      }
+    ],
+    "http://www.loc.gov/mads/rdf/v1#elementList": [
+      {
+        "@list": [
+          {
+            "@id": "_:b24iddOtlocdOtgovauthoritiessubjectssh85013297"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:b24iddOtlocdOtgovauthoritiessubjectssh85013297",
+    "@type": [
+      "http://www.loc.gov/mads/rdf/v1#TopicElement"
+    ],
+    "http://www.loc.gov/mads/rdf/v1#elementValue": [
+      {
+        "@language": "en",
+        "@value": "Mourning"
+      }
+    ]
+  }
+]

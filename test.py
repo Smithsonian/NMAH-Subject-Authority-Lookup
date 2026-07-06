@@ -9,9 +9,10 @@ from main import *
 def test(term):
     uri = getResourceURI(term)
     data = getData(uri)
+    j = json.dumps(data, indent=2)
     with open(f"{term}.json", "w") as f:
-        json = json.dumps(data)
-        f.write(json)
+        f.write(j)
 
 if __name__ == "__main__":
-    test(sys.argv[1])
+    term = sys.argv[1]
+    test(term)

@@ -35,10 +35,13 @@ def listVariants(item):
         labels.append(l["@value"])
     return labels
 
-def detectSelfVariant():
-    #input item
-    #
-    pass
+def altAuthoritativeLabel(item, id):
+    href = f"http://id.loc.gov/authorities/subjects/{id}"
+    if item["@id"] == href:
+        if "http://www.loc.gov/mads/rdf/v1#authoritativeLabel" in item.keys():
+            sub = item["http://www.loc.gov/mads/rdf/v1#authoritativeLabel"]
+            return sub[0]["@value"]
+    return None
 
 
 def getTermVariants(lbl):
@@ -49,6 +52,9 @@ def getTermVariants(lbl):
     json = getData(idstr)
     allVars = []
     for i in json:
+        alts = altAuthoritativeLabel(i, idstr)
+        if alts != None:
+            allVars.append(alts)
         if "http://www.loc.gov/mads/rdf/v1#Variant" in i["@type"]:
             varis = listVariants(i)
             if varis:
