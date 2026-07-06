@@ -8,11 +8,13 @@ import urllib.parse
 #if the given variants match the LOC variant list, return LOC
 #else, return NMAH
 def getResourceURI(label):
-    enc = urllib.parse.quote(label)
+    enc = urllib.parse.quote(str(label))
     url = f"https://id.loc.gov/authorities/subjects/label/{enc}"
     headers = {'accept':'application/json'}
     h = requests.head(url = url, headers = headers)
     json = h.headers
+    if "x-uri" not in json:
+        return "not found"
     uri = json["x-uri"].split("/")
     return uri[-1]
 
@@ -33,10 +35,17 @@ def listVariants(item):
         labels.append(l["@value"])
     return labels
 
+def detectSelfVariant():
+    #input item
+    #
+    pass
+
 
 def getTermVariants(lbl):
     #where lbl is what it grabs from the csv
     idstr = getResourceURI(lbl)
+    if idstr == "not found":
+        return "string not found in LOC"
     json = getData(idstr)
     allVars = []
     for i in json:
@@ -44,10 +53,10 @@ def getTermVariants(lbl):
             varis = listVariants(i)
             if varis:
                 for v in varis:
-                    allVars.append(v)
-    
-    return allVars
+                    allVars.append(v)    
+    return ";".join(allVars)
 
+#matches existing variant terms exactly to LOC variants; not in main function yet
 def matchVariants(inTerms, subVars):
     termsIn = inTerms.split(";")
     f = []
@@ -61,11 +70,15 @@ def matchVariants(inTerms, subVars):
     return f
 
 def main():
-    csv = os.environ.get('SUBJECTS_FILE')
-    out = os.environ.get('OUTPUT')
-    term_vars = pd.read_csv(csv)
-    term_vars["LOC_Variants"] = getTermVariants(term_vars["Subject"].replace('"',''))
-    term_vars.to_csv(output)
+    csv = "../variant_cleanup.csv"
+    out = "../test_variant_output.csv"
+    term_vars = pd.read_csv(csv, encoding="latin1") #pandas can't properly decode the file as utf-8, not sure why
+    variants = []
+    for i, row in term_vars.iterrows():
+        var = getTermVariants(row["Subject"])
+        variants.append(var)
+    term_vars["LOC_Variants"] = variants
+    term_vars.to_csv(out)
 
 
 if __name__ == "__main__":
