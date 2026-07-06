@@ -13,6 +13,9 @@ def test(term):
     with open(f"{term}.json", "w") as f:
         f.write(j)
 
+def findInLOC(name):
+    enc = urllib.parse.quote(str(name))
+
 if __name__ == "__main__":
     term = sys.argv[1]
     test(term)
