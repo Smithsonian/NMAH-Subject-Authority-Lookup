@@ -60,30 +60,34 @@ def getTermVariants(lbl):
             if varis:
                 for v in varis:
                     allVars.append(v)    
-    return ";".join(allVars)
+    return "; ".join(allVars)
 
-#matches existing variant terms exactly to LOC variants; not in main function yet
-def matchVariants(inTerms, subVars):
+def matchVariants(inTerms):
     termsIn = inTerms.split(";")
     f = []
     for term in termsIn:
-        found = "False"
-        for sub in subVars:
-            if term.lower() == sub.lower():
-                found = "True"
-                break
+        found = "N"
+        t = term.lstrip()
+        sub = getResourceURI(t)
+        if sub != "not found":
+            found = "Y"
         f.append(found)
-    return f
+    return "; ".join(f)
 
 def main():
     csv = "../variant_cleanup.csv"
     out = "../test_variant_output.csv"
     term_vars = pd.read_csv(csv, encoding="latin1") #pandas can't properly decode the file as utf-8, not sure why
     variants = []
+    checks = []
     for i, row in term_vars.iterrows():
         var = getTermVariants(row["Subject"])
         variants.append(var)
+
+        varCheck = matchVariants(row["Variant Terms"])
+        checks.append(varCheck)
     term_vars["LOC_Variants"] = variants
+    term_vars["XG_Variants_in_LOC"] = checks
     term_vars.to_csv(out)
 
 
