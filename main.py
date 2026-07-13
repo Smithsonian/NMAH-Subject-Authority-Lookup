@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import requests
 import urllib.parse
+import sys
 
 #pull subject codes from list - after workaround for earlier issues configured
 #retrieve subject variant strings as array
@@ -75,11 +76,9 @@ def matchVariants(inTerms):
         f.append(found)
     return "; ".join(f)
 
-def main():
-    csv = "../unlinked-subjects/unlinked-term-counts.csv"
-    out = "../unlinked-subjects/test_subjects_output.csv"
+def main(inFile, outFile):
     #might mitigate some of the hiccups with accents
-    with open(csv, 'rb') as f:
+    with open(inFile, 'rb') as f:
         enc = chardet.detect(f.read())
     term_vars = pd.read_csv(csv, encoding=enc['encoding'])
     variants = []
@@ -87,12 +86,20 @@ def main():
     for i, row in term_vars.iterrows():
         var = getTermVariants(row["Subject"])
         variants.append(var)
-
         varCheck = matchVariants(row["Variant Terms"])
         checks.append(varCheck)
     term_vars["LOC_Variants"] = variants
     term_vars["XG_Variants_in_LOC"] = checks
-    term_vars.to_csv(out)
+    term_vars.to_csv(outfile)
 
+def remerge(newFile, mainFile, combinedFile):
+    new = pd.read_csv(newFile)
+    main = pd.read_csv(mainFile)
+    new.drop(columns=["Count", "flag"])
+    combined = main.merge(new, on="Orginal XG Term", how='left')
+    combined.to_csv(combinedFile)
 if __name__ == "__main__":
-    main()
+    if sys.argv[1] == "merge":
+        remerge("../unlinked-subjects/unlinked-subjects-updated-3.csv", "../unlinked-subjects/unlinked-term-counts.csv", "../unlinked-subjects-toweb-1.csv")
+    else:
+        main()
