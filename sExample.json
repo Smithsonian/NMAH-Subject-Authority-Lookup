@@ -1,0 +1,615 @@
+{
+  "q": "weaving*",
+  "count": 48,
+  "pagesize": 10,
+  "start": 0,
+  "sortmethod": "rank",
+  "searchtype": "keyword",
+  "memberOf": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+  "directory": "/authorities/subjects/",
+  "hits": [
+    {
+      "suggestLabel": "Weaving",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85145868",
+      "aLabel": "Weaving",
+      "vLabel": "Warping",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85145868",
+      "rank": "64436",
+      "subject-of": 132,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General",
+          "http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically"
+        ],
+        "notes": [
+          "woven articles, e.g. [Blankets, Carpets, Rugs]"
+        ],
+        "variantLabels": [
+          "Warping"
+        ],
+        "languages": [],
+        "relateds": [
+          "Textile industry"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [
+          {
+            "code": "GN432",
+            "label": "Primitive",
+            "assigner": "DLC"
+          },
+          {
+            "code": "TS1490-TS1500",
+            "label": "Industrial",
+            "assigner": "DLC"
+          }
+        ],
+        "lcclasses": [
+          {
+            "code": "GN432",
+            "label": "Primitive",
+            "assigner": "DLC"
+          },
+          {
+            "code": "TS1490-TS1500",
+            "label": "Industrial",
+            "assigner": "DLC"
+          }
+        ],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Textile industry"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving, Germanic",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85145869",
+      "aLabel": "Weaving, Germanic",
+      "vLabel": "Germanic weaving",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85145869",
+      "rank": "8357",
+      "subject-of": 1,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General",
+          "http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically"
+        ],
+        "variantLabels": [
+          "Germanic weaving",
+          "Weaving--Germanic tribes",
+          "Weaving--Germanic tribes"
+        ],
+        "languages": [],
+        "relateds": [
+          "Weaving--Germanic tribes"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [],
+        "sees": [],
+        "hasEarlierEstablishedForms": [
+          "Weaving--Germanic tribes"
+        ],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving, Germanic"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving areas (Traffic engineering)",
+      "uri": "http://id.loc.gov/authorities/subjects/sh2018003021",
+      "aLabel": "Weaving areas (Traffic engineering)",
+      "vLabel": "Areas, Weaving (Traffic engineering)",
+      "sLabel": "",
+      "code": "",
+      "token": "sh2018003021",
+      "rank": "6423",
+      "subject-of": 1,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General",
+          "http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically"
+        ],
+        "variantLabels": [
+          "Areas, Weaving (Traffic engineering)",
+          "Sections, Weaving (Traffic engineering)",
+          "Weaving sections (Traffic engineering)"
+        ],
+        "languages": [],
+        "relateds": [
+          "Traffic engineering"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "sources": [
+          "found : Work cat: Pignataro, L.J. Weaving areas : design and analysis, 1975: p. 110 (The weaving section that has occupied the major attention in this work is one in which two and only two traffic flows come together into one common roadway and then subsequently split apart into two and only two exit roadways. More complex weaving sections occur when more than two traffic flows come together and/or more than two exit roadway choices are available. This multiple weaving section can be seen in urban areas where, for example, two onramps enter an expressway upstream of an off-ramp)",
+          "found : National Research Council (U.S.). Transportation Research Board. Highway capacity manual, 1985: page 4-2 (Weaving is defined as the crossing of two or more traffic streams in the same general direction along a significant length of highway, without the aid of traffic devices. Weaving areas are formed when a merge area is closely followed by a diverge area, or when an on-ramp is closely followed by an off-ramp and the two are joined by an auxiliary lane. Weaving areas require intense lane-changing maneuvers as drivers must access lanes appropriate to their desired exit point. Thus, traffic in a weaving area is subject to turbulence in excess of that normally present on basic highway sections. ... Weaving areas may exist on any type of highway: freeways, multilane highways, two-lane highways, or arterials. They are most prevalent, however, as part of freeway systems, and most recent research has focused on freeway weaving areas)",
+          "found : Transportation research. Part A, Policy and practice, Jan. 2004: p. 35 (Safety aspects of freeway weaving sections. ... One source of vehicle conflict is the freeway weaving section, where a merge and diverge in close proximity require vehicles either entering or exiting the freeway to execute one or more lane changes) p. 36 (In traffic engineering, three types of weaving sections are traditionally distinguished based on the minimum number of lane changes required for completing the weaving maneuvers ... Type A weaving sections: Every weaving vehicle (a vehicle merging or diverging) must execute one lane change. The most common Type A configuration is a pair of on- and off-ramps connected by an auxiliary lane; Type B weaving sections: One weaving movement can be made without making any lane change, while the other weaving movement requires at most one lane change. A common Type B configuration has a lane added at an on-ramp; merging traffic does not need to change lanes, but traffic diverging downstream must change onto this added lane to exit at the off-ramp. Type C weaving sections: One weaving movement can be made without making any lane change, while the other weaving movement requires at least two lane changes)",
+          "found : Transportation research procedia, 2014: pp. 51-52 (Analysis of the driving behaviour at weaving section using multiple traffic surveillance data. ... Weaving is defined as the crossing of two or more traffic streams traveling in the same direction along a significant length of the highway without the aid of traffic control devices. Eventually, in a motorway weaving section, the lane-changing appears in high number especially closer to the end of the merging and diverging points where the drivers expect to merge or diverge from the main traffic. Thus, the lane-changing drivers have to critically observe and evaluate the traffic condition both in the current and the target lane. They pursue continuously for a safest condition to precede the lane-changing movement. The movement in motorway section is critical since the distance between the merging and diverging area are relatively short (2,000-3,000 metres according to the Design Manual for Roads and Bridges (DMRB))"
+        ],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [
+          {
+            "classuri": "http://id.loc.gov/authorities/classification/HE336.W43",
+            "code": "HE336.W43",
+            "label": "Social Sciences--Transportation and communications--Traffic engineering--By subject, A-Z--Weaving areas",
+            "assigner": "DLC"
+          }
+        ],
+        "lcclasses": [
+          {
+            "classuri": "http://id.loc.gov/authorities/classification/HE336.W43",
+            "code": "HE336.W43",
+            "label": "Social Sciences--Transportation and communications--Traffic engineering--By subject, A-Z--Weaving areas",
+            "assigner": "DLC"
+          }
+        ],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Traffic engineering"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150  $aWeaving areas (Traffic engineering)"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "West African strip weaving",
+      "uri": "http://id.loc.gov/authorities/subjects/sh88005051",
+      "aLabel": "West African strip weaving",
+      "vLabel": "Band weaving, West African",
+      "sLabel": "",
+      "code": "",
+      "token": "sh88005051",
+      "rank": "5158",
+      "subject-of": 1,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General",
+          "http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically"
+        ],
+        "variantLabels": [
+          "Band weaving, West African",
+          "Narrow band weaving, West African",
+          "Narrow strip weaving, West African",
+          "Strip weaving, West African",
+          "Weaving, West African band",
+          "Weaving, West African narrow band",
+          "Weaving, West African narrow strip",
+          "Weaving, West African strip",
+          "West African band weaving",
+          "West African narrow band weaving",
+          "West African narrow strip weaving"
+        ],
+        "languages": [],
+        "relateds": [
+          "Hand weaving--Africa, West"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "sources": [
+          "found : Work cat.: History, design, and craft in West African strip-woven cloth, 1988.",
+          "found : Gilfoy, P.S. Patterns of life; West African strip-weaving traditions, c1987: p. 11 (\"Male weaving on narrow-strip horizontal looms is geographically limited to West Africa south of the Sahara, from Senegal in the West to Cameroon in the East.\")",
+          "found : Kent, K.P. Introducing West African cloth, 1971: p. 3 (\"There is today a bewildering variety of textile styles, reflecting the differing cultural patterns of West Africa. Each major group (or \"tribe\") has its own distinctive type of weaving or design. The following text divides the cloth for descriptive purposes into four categories: 1. Men's narrow band cloth, woven on the horizontal treadle loom ...\") Also chapter one (\"Men's narrow band weaving.\")",
+          "found : Oyeola, P. Nigerian crafts, 1981: p. 21 (\"The horizontal loom is used by the Gwari, Hausa, Kanuri, Nupe and Yoruba cultural groups and many others. The cloth woven by the Yoruba male weaver is a long continuous strip about 10-13 cm. wide.\")",
+          "notfound : Web. 3;Random House"
+        ],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Hand weaving--Africa, West"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWest African strip weaving"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Drawing in (Weaving)",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85039475",
+      "aLabel": "Drawing in (Weaving)",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85039475",
+      "rank": "4886",
+      "subject-of": 2,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [
+          "Weaving"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Weaving"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150  $aDrawing in (Weaving)"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving (Manual training)",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85145872",
+      "aLabel": "Weaving (Manual training)",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85145872",
+      "rank": "4886",
+      "subject-of": 3,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [
+          "Manual training"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [
+          {
+            "code": "LB1543",
+            "label": "Primary schools",
+            "assigner": "DLC"
+          }
+        ],
+        "lcclasses": [
+          {
+            "code": "LB1543",
+            "label": "Primary schools",
+            "assigner": "DLC"
+          }
+        ],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Manual training"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving (Manual training)"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Pickers (Weaving)",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85101964",
+      "aLabel": "Pickers (Weaving)",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85101964",
+      "rank": "4886",
+      "subject-of": 1,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General",
+          "http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [
+          "Looms",
+          "Textile machinery",
+          "Weaving"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Looms",
+          "Textile machinery",
+          "Weaving"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aPickers (Weaving)"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving in literature",
+      "uri": "http://id.loc.gov/authorities/subjects/sh95007107",
+      "aLabel": "Weaving in literature",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh95007107",
+      "rank": "4886",
+      "subject-of": 10,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [],
+        "occupations": [],
+        "activityfields": [],
+        "sources": [
+          "found : Work cat.: 95-35699: Scheid, J. The craft of Zeus, 1996."
+        ],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving in literature"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving in art",
+      "uri": "http://id.loc.gov/authorities/subjects/sh97002587",
+      "aLabel": "Weaving in art",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh97002587",
+      "rank": "4886",
+      "subject-of": 10,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [],
+        "occupations": [],
+        "activityfields": [],
+        "sources": [
+          "found : 75-313200: Stettiner, Richard. Webebild in der Manesse-Handschrift und seine angebliche Vorlage, 1969."
+        ],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving in art"
+        ],
+        "gacs": []
+      }
+    },
+    {
+      "suggestLabel": "Weaving (Jewish law)",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85145871",
+      "aLabel": "Weaving (Jewish law)",
+      "vLabel": "",
+      "sLabel": "",
+      "code": "",
+      "token": "sh85145871",
+      "rank": "4886",
+      "subject-of": 3,
+      "more": {
+        "nonlatinLabels": [],
+        "vernacularLabels": [],
+        "rdftypes": [
+          "Topic",
+          "SimpleType",
+          "Authority"
+        ],
+        "collections": [
+          "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+          "http://id.loc.gov/authorities/subjects/collection_LCSH_General"
+        ],
+        "variantLabels": [],
+        "languages": [],
+        "relateds": [
+          "Jewish law"
+        ],
+        "occupations": [],
+        "activityfields": [],
+        "locales": [],
+        "birthplaces": [],
+        "birthdates": [],
+        "deathdates": [],
+        "establishDates": [],
+        "terminateDates": [],
+        "lcclasss": [],
+        "lcclasses": [],
+        "hasRelatedAuthoritys": [],
+        "broaders": [
+          "Jewish law"
+        ],
+        "sees": [],
+        "hasEarlierEstablishedForms": [],
+        "hasLaterEstablishedForms": [],
+        "useFors": [],
+        "marcKeys": [
+          "150 0$aWeaving (Jewish law)"
+        ],
+        "gacs": []
+      }
+    }
+  ]
+}

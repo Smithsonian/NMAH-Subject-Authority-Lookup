@@ -1,3 +1,4 @@
+import chardet
 import os
 import pandas as pd
 import requests
@@ -75,9 +76,12 @@ def matchVariants(inTerms):
     return "; ".join(f)
 
 def main():
-    csv = "../variant_cleanup.csv"
-    out = "../test_variant_output.csv"
-    term_vars = pd.read_csv(csv, encoding="latin1") #pandas can't properly decode the file as utf-8, not sure why
+    csv = "../unlinked-subjects/unlinked-term-counts.csv"
+    out = "../unlinked-subjects/test_subjects_output.csv"
+    #might mitigate some of the hiccups with accents
+    with open(csv, 'rb') as f:
+        enc = chardet.detect(f.read())
+    term_vars = pd.read_csv(csv, encoding=enc['encoding'])
     variants = []
     checks = []
     for i, row in term_vars.iterrows():
@@ -89,7 +93,6 @@ def main():
     term_vars["LOC_Variants"] = variants
     term_vars["XG_Variants_in_LOC"] = checks
     term_vars.to_csv(out)
-
 
 if __name__ == "__main__":
     main()
