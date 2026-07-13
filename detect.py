@@ -28,19 +28,20 @@ def parseResults(dat, type):
         return "no matches found"
     return "; ".join(results)
 
-#modify to 
-
-def prim(inFile, outFile, type):
+def prim(inFile, outFile, type, filter):
     csv = pd.read_csv(inFile, encoding='utf-8')
     matches = []
     suggested = []
+    if filter == True:
+        csv = filterRows(csv)
     for i, row in csv.iterrows():
         # this is a typo from the csv that i didn't feel like dealing with, ignore
         r = suggestionSearch(row['Orginal XG Term'], type)
         match = parseResults(r, type)
         matches.append(match)
         # automatically updates with the first suggested term, saves some work on my end
-        suggested.append(match[0])
+        matchlist = match.split(";")
+        suggested.append(matchlist[0])
         
     csv["LC Suggested Hits"] = matches
     csv["Updated Term"] = suggested
@@ -48,4 +49,4 @@ def prim(inFile, outFile, type):
 
 if __name__ == "__main__":
     # change to variables, command line args
-    prim("../unlinked-subjects/unlinked-subjects-filtered-2.csv", "../unlinked-subjects/unlinked-term-hits2.csv", "leftanchored")
+    prim("../unlinked-subjects/unlinked-subjects-filtered-2.csv", "../unlinked-subjects/unlinked-term-hits2.csv", "leftanchored", filter=True)

@@ -95,11 +95,11 @@ def main(inFile, outFile):
 def remerge(newFile, mainFile, combinedFile):
     new = pd.read_csv(newFile)
     main = pd.read_csv(mainFile)
-    new.drop(columns=["Count", "flag"])
-    combined = main.merge(new, on="Orginal XG Term", how='left')
+    nnew = new.drop(columns=["Count", "flag"])
+    combined = main.merge(nnew, on=["Orginal XG Term"], how='left')
     combined.to_csv(combinedFile)
 if __name__ == "__main__":
     if sys.argv[1] == "merge":
-        remerge("../unlinked-subjects/unlinked-subjects-updated-3.csv", "../unlinked-subjects/unlinked-term-counts.csv", "../unlinked-subjects-toweb-1.csv")
+        remerge("../unlinked-subjects/unlinked-subjects-wikidata-values.csv", "../unlinked-subjects-web-current1.csv", "../unlinked-subjects-toweb-2.csv")
     else:
         main()
