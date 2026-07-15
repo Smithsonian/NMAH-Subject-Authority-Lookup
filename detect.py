@@ -8,12 +8,14 @@ def suggestionSearch(unlinked, type):
     url = f"https://id.loc.gov/authorities%2Fsubjects/suggest2?q={keyw}&memberOf=http%3A%2F%2Fid.loc.gov%2Fauthorities%2Fsubjects%2Fcollection_LCSHAuthorizedHeadings&searchtype={type}&count=15&offset=0&sort=relevance&mime=json&usage=true&rawlist=true"
     r = requests.get(url = url, headers = headers)
     if r.status_code != 200:
-        raise Exception(f"the request yielded a non-200 response: {r.status_code}")
+        return "error code"
     return r.json()
 
 def parseResults(dat, type):
     # messy; needs to just inherit the type from the original input but whatever
     results = []
+    if dat == "error code":
+        return "error code"
     hits = dat["hits"]
     if len(hits) >= 1:
         match type:
