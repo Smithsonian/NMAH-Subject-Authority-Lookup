@@ -34,7 +34,7 @@ def varsLOC(inFile, outFile):
         uri.append(f"http://id.loc.gov/authorities/subjects/{u}")
         vars = getTermVariants(row["Updated Term"])
         if ";" in vars:
-            vars = vars.split(";")
+            vars = vars.split(";").lstrip()
         else:
             a = vars
             vars = []
