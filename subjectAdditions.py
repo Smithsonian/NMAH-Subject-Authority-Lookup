@@ -34,7 +34,8 @@ def varsLOC(inFile, outFile):
         uri.append(f"http://id.loc.gov/authorities/subjects/{u}")
         vars = getTermVariants(row["Updated Term"])
         if ";" in vars:
-            vars = vars.split(";").lstrip()
+            a = vars.split(";")
+            vars = [b.lstrip() for b in a]
         else:
             a = vars
             vars = []
@@ -65,4 +66,4 @@ def varsLOC(inFile, outFile):
     df.to_csv(outFile)
 
 if __name__ == "__main__":
-    varsLOC("../unlinked-terms-matched3.csv", "../matched-to-LOC3.csv")
+    varsLOC("../round_3_new_subjects.csv", "../matched-to-LOC4.csv")
